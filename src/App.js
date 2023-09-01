@@ -1,5 +1,4 @@
 import './App.css';
-import ExpenseItem from "./components/ExpenseItem";
 import Expense from "./components/Expense";
 import React from "react";
 function App() {
@@ -31,8 +30,7 @@ function App() {
         <h2>Let's get started!</h2>
         <Expense items={expenses}/>
       </div>
-
-  )
+  );
 }
 
 export default App;
